@@ -5,7 +5,7 @@ public class Main {
             Character knight = new Knight();
             Character wizard = new Wizard();
             Character archer = new Archer();
-            
+
             System.out.println("Knight:");
             knight.attack();
             knight.defend();
@@ -18,7 +18,7 @@ public class Main {
             archer.attack();
             archer.defend();
         } catch (Exception e) {
-            System.out.println("Unexpected error in game: " + e.getMessage());
+            System.out.println("Unexpected error in the game: " + e.getMessage());
         }
     }
 }

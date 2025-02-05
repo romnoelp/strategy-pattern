@@ -10,7 +10,7 @@ public abstract class Character {
     public Character(Attack attackStrategy, List<Defend> defenseStrategies) {
         this.attackStrategy = attackStrategy;
         this.defenseStrategies = defenseStrategies;
-    }   
+    }
 
     public void attack() {
         try {
