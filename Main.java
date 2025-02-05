@@ -5,8 +5,7 @@ public class Main {
             Character knight = new Knight();
             Character wizard = new Wizard();
             Character archer = new Archer();
-
-            //
+            
             System.out.println("Knight:");
             knight.attack();
             knight.defend();
